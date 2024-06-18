@@ -1,0 +1,5 @@
+.home{
+    background-image: url('./assets/image_23.png');
+    object-fit: cover;
+    min-height: 100vh;
+}
