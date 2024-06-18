@@ -1,14 +1,12 @@
-import React from 'react'
-import { Routes, Routes, Route } from 'react-router-dom'
-import Layout from '../components/layout/Layout'
+import React from "react";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
-        <Routes>
-    <Route path="/" element={<Layout />}>
-      {/* <Route index element={<Homepage />} /> */}
-    </Routes>
-  )
-}
+    <div className="bg-yellow-400">
+      <Hero />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

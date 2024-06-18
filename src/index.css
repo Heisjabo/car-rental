@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.jabo {
+  background-image: url("./assets/image_23.png");
+  object-fit: cover;
+  min-height: 100vh;
+}
+
+body {
+  background-color: black;
+}
