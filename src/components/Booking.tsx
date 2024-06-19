@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Booking = () => {
-  return (
-    <div className='bg-gray-400 py-8 rounded-xl '>Booking</div>
-  )
-}
+  return <div className="bg-gray-400 py-8 rounded-xl ">Booking</div>;
+};
 
-export default Booking
+export default Booking;
