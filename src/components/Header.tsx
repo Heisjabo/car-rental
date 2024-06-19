@@ -9,7 +9,7 @@ const Header = () => {
         <HiMenuAlt4 className="text-2xl text-white" />
       </div>
       <img src={Logo} alt="logo" />
-      <button className="bg-transparent border border-slate-200 rounded-[48px] px-4 py-1 text-[16px] text-white">
+      <button className="hidden md:block bg-transparent border border-slate-200 rounded-[48px] px-4 py-1 text-[13px]md:text-[16px] text-white">
         Login / Register
       </button>
     </div>
