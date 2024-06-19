@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Brands = () => {
   return (
-    <div className="bg-white py-5">
+    <div className="bg-white py-16">
       <div className="max-w-[1440px] w-[90%] mx-auto">
         <div className="flex items-center justify-between py-3">
           <h4 className=" cursor-pointer"> Brands</h4>
