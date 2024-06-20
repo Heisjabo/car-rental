@@ -4,6 +4,7 @@ import Brands from "../components/common/brands/Brands";
 import Collection from "../components/common/collection/Collection";
 import HowItWorks from "../components/common/how-it-work/HowItWorks";
 import CustomerService from "../components/common/customerservice/CustomerService";
+import CustomerSays from "../components/layout/CustomerSays";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Collection />
       <HowItWorks />
       <CustomerService />
+      <CustomerSays />
     </div>
   );
 };

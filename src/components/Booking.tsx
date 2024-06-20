@@ -5,18 +5,18 @@ import { DatePicker } from "@mui/x-date-pickers";
 import { useEffect } from "react";
 
 const Booking = () => {
-    useEffect(() => {
-        navigator.geolocation.getCurrentPosition((position) => {
-            console.log(position);
-        })
-    })
+    // useEffect(() => {
+    //     navigator.geolocation.getCurrentPosition((position) => {
+    //         console.log(position);
+    //     })
+    // })
   return (
   <div className="bg-[#ffffff] py-3  rounded-xl shadow-lg">
-        <h2 className="pl-3 py-1 font-bold text-orange-600 text-center text-2xl">Book with us</h2>
+        <h2 className="pl-3 py-1 font-bold text-orange-600 text-center text-lg">Book with us</h2>
     <div className="px-3 pb-3 flex justify-between items-center gap-3 overflow-auto">
         <div className="flex flex-col items-start">
-            <label>Pick up Location</label>
-            <div className=" flex items-center rounded-[4px] shadow-lg border border-gray-300 hover:border-gray-600">
+            <label className="text-[12px] md:text-[14px]">Pick up Location</label>
+            <div className=" flex items-center rounded-[4px] border border-gray-300 hover:border-gray-600">
             <CiLocationOn className="mx-3 text-lg" />    
             <input 
             className="outline-none py-4 bg-transparent"
@@ -27,16 +27,16 @@ const Booking = () => {
             </div>
         </div>
         <div className="flex flex-col items-start">
-            <label>Pick up date</label>
+            <label className="text-[12px] md:text-[14px]">Pick up date</label>
             <div className="flex items-center">
             <DatePicker 
-            className="w-48 py-2"
+            className="w-48"
              />
             </div>
         </div>
         <div className="flex flex-col items-start">
-            <label>Drop off Location</label>
-            <div className=" flex items-center rounded-[4px] shadow-lg border border-gray-300 hover:border-gray-600">
+            <label className="text-[12px] md:text-[14px]">Drop off Location</label>
+            <div className=" flex items-center rounded-[4px] border border-gray-300 hover:border-gray-600">
             <CiLocationOn className="mx-3 text-lg" />    
             <input 
             className="outline-none py-4 bg-transparent"
@@ -47,7 +47,7 @@ const Booking = () => {
             </div>
         </div>
         <div className="flex flex-col items-start">
-            <label>Drop off date</label>
+            <label className="text-[12px] md:text-[14px]">Drop off date</label>
             <div className="flex items-center">
             <DatePicker 
             className="w-48 py-2"
