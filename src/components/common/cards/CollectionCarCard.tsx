@@ -3,16 +3,17 @@ import { BsClockHistory } from "react-icons/bs";
 import { MdAutoMode } from "react-icons/md";
 import { HiOutlineUserGroup } from "react-icons/hi2";
 import { MdElectricBolt } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 interface CarCard {
-  //   id: number;
+  id: number;
   name: string;
   price: number;
   mileage: string;
   transmission: string;
   capacity: string;
   type: string;
-  image: string;
+  images: string[];
 }
 
 interface ICarCardProps {
@@ -23,7 +24,7 @@ const CarCard: React.FC<ICarCardProps> = ({ car }) => {
   return (
     <div className=" rounded-lg shadow-md bg-white overflow-hidden border border-[#E5E5E5]">
       <img
-        src={car.image}
+        src={car.images[0]}
         alt={car.name}
         className="w-full h-48 object-cover"
       />
@@ -51,9 +52,10 @@ const CarCard: React.FC<ICarCardProps> = ({ car }) => {
             <span className=" text-[#4A4A4A]">{car.type}</span>
           </div>
         </div>
-        <button className="w-full mt-4 bg-black text-white py-2 rounded-lg">
+        <Link to={`/cars/${car.id}`} ><button className="w-full mt-4 bg-black text-white py-2 rounded-lg">
           Rent Now
         </button>
+        </Link>
       </div>
     </div>
   );
