@@ -5,13 +5,20 @@ import Logo from "../assets/Heading.png";
 const Header = () => {
   return (
     <div className="flex items-center justify-between px-[5%] py-3 bg-black fixed top-0 right-0 left-0 z-50">
-      <div>
-        <HiMenuAlt4 className="text-2xl text-white" />
+     <h1 className="font-bold text-white text-3xl">DEE 
+     <span className="text-red-500">PINES</span></h1>
+      <div className="hidden md:block text-white ">
+        <ul className="flex gap-4 font-[600] ">
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Home</li>
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">About US</li>
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Services</li>
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Contact</li>
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Home</li>
+        </ul>
       </div>
-      <img src={Logo} alt="logo" />
-      <button className="hidden md:block bg-transparent border border-slate-200 rounded-[48px] px-4 py-1 text-[13px]md:text-[16px] text-white">
-        Login / Register
-      </button>
+      <div>
+        <HiMenuAlt4 className="text-4xl text-white cursor-pointer" />
+      </div>
     </div>
   );
 };

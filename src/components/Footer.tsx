@@ -12,12 +12,13 @@ const Footer = () => {
     <div className="bg-[#0F0F0F] w-full py-8 text-white">
       <div className="  flex justify-center items-center gap-10 mx-6 flex-wrap">
         <div className="w-full text-center md:w-[488px]">
-          <h1 className="md:text-[36px] text-[24px] font-bold py-3">Download our mobile app ⚡️</h1>
+          <h1 className="md:text-[36px] text-[24px] font-bold py-3">More Info Contact Us ⚡️</h1>
           <p className="md:text-start text-gray-400 text-[15px]">
-          Get exclusive access to car rentals with our mobile app. Download now and experience convenience on the go.
+          Get exclusive access to car rentals, houses and mordern plots. 
+          Know more about our products and services.
           </p>
         </div>
-        <div className="flex text-black gap-8">
+        {/* <div className="flex text-black gap-8">
           <div className="flex items-center justify-center gap-2 bg-white py-3 px-4 rounded-full">
             <FaApple className="text-lg"/>
             <div className="">
@@ -32,12 +33,13 @@ const Footer = () => {
               <h2 className="md:text-[12px] text-[10px]">App Store</h2>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     <div className="w-screen h-[0.5px] bg-gray-300 my-12 opacity-[0.4]"/>
     <div className="flex items-center justify-around flex-wrap gap-4 mx-6">
       <div className="">
-        <img src={Logo} alt="logo" />
+        <h1 className="font-bold text-white text-3xl">DEE 
+     <span className="text-red-500">PINES</span></h1>
       </div>
       <div className="">
         <ul className="flex items-center gap-3">

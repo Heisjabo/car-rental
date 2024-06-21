@@ -1,23 +1,23 @@
 import React from "react";
-import { FaSearch, FaCalendarCheck, FaSmile } from "react-icons/fa";
+import { FaSearch, FaHouseUser , FaLandmark } from "react-icons/fa";
 const steps = [
   {
     icon: <FaSearch size={24} />,
-    title: "Browse and select",
+    title: "Car Rent and Fast truck",
     description:
       "Choose from our wide range of premium cars, select the pickup and return dates and locations that suit you best.",
   },
   {
-    icon: <FaCalendarCheck size={24} />,
-    title: "Book and confirm",
+    icon: <FaHouseUser  size={24} />,
+    title: "Buy plot at modern place",
     description:
-      "Book your desired car with just a few clicks and receive an instant confirmation via email or SMS.",
+      "Buy our best plot in city and country we beeen working on this for long trust our company to delivery very competitive place to resides.",
   },
   {
-    icon: <FaSmile size={24} />,
-    title: "Enjoy your ride",
+    icon: <FaLandmark size={24} />,
+    title: "House for sale",
     description:
-      "Pick up your car at the designated location and enjoy your premium driving experience with our top-quality service.",
+      "We sell best house at suitable price, our houses located at good place and to know more about house don't hasitate to contact us in below contact.",
   },
 ];
 const HowItWorks = () => {
@@ -29,9 +29,7 @@ const HowItWorks = () => {
             How it woks
           </h1>
           <p className=" text-[#0F0F0F] text-center mb-4">
-            Renting a luxury car has never been easier. Our streamlined process
-            makes it simple for you to book and confirm your vehicle of choice
-            online
+            Here are our best services we delivery on people who seek to rent cars, buy houses and looking plot to buy. Read more on below to know more about our services.
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center bg-gray-100 p-2 rounded-lg shadow-md">
