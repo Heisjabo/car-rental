@@ -10,7 +10,7 @@ const Header = () => {
       <div className="hidden md:block text-white ">
         <ul className="flex gap-4 font-[600] ">
           <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Home</li>
-          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">About US</li>
+          <li className="hover:text-orange-600 cursor-pointer transition-[1s]">About us</li>
           <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Services</li>
           <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Contact</li>
           <li className="hover:text-orange-600 cursor-pointer transition-[1s]">Home</li>

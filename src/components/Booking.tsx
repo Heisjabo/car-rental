@@ -11,9 +11,9 @@ const Booking = () => {
     //     })
     // })
   return (
-  <div className="bg-[#ffffff] py-3  rounded-xl shadow-lg">
+  <div className="w-[80%] mx-auto bg-[#ffffff] py-2  rounded-xl shadow-lg">
         {/* <h2 className="pl-3 py-1 font-bold text-orange-600 text-center text-lg">Book with us</h2> */}
-    <div className="px-3 pb-3 flex justify-evenly items-center gap-3 overflow-auto">
+    <div className="px-3 pb-3 flex justify-evenly items-center gap-3 overflow-x-auto hide-scrollbar">
         <div className="flex flex-col items-start">
             <label className="text-[12px] md:text-[14px]">Pick up Location</label>
             <div className=" flex items-center rounded-[4px] border border-gray-300 hover:border-gray-600">
